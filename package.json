@@ -1,0 +1,31 @@
+{
+  "name": "coast-landing",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "lint": "eslint --ext .ts,.vue src --report-unused-disable-directives --max-warnings 0"
+  },
+  "dependencies": {
+    "@element-plus/icons-vue": "^2.3.2",
+    "axios": "^1.5.0",
+    "element-plus": "^2.3.0",
+    "pinia": "^2.1.0",
+    "vue": "^3.3.4",
+    "vue-router": "^4.2.0"
+  },
+  "devDependencies": {
+    "@types/node": "^18.0.0",
+    "@vitejs/plugin-vue": "^4.0.0",
+    "@vue/compiler-sfc": "^3.3.4",
+    "eslint": "^8.0.0",
+    "eslint-config-prettier": "^8.0.0",
+    "eslint-plugin-vue": "^9.0.0",
+    "prettier": "^2.8.0",
+    "sass": "^1.93.2",
+    "typescript": "^5.0.0",
+    "vite": "^5.0.0"
+  }
+}
